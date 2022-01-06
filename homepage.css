@@ -1,0 +1,128 @@
+body
+{
+    background-image: url('./Veg\ Images/veg-bgimg.jpg');
+    background-size:cover;
+}
+.top-banner 
+{
+    position: fixed;
+    top: 0px;  
+    left:0px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid rgb(216, 83, 50);
+    margin: 0;
+    background-color: rgb(216, 83, 50)
+}
+.logo
+{
+    position: fixed;
+    top:5px;  
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    width:200px;
+}
+.navbar
+{
+    position: fixed;
+    top: 5px;
+    right:1em;
+    padding:10px;
+    margin:10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    gap:20px;
+}
+a 
+{   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.title
+{
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+a:hover
+{
+    transform:scale(1.2);
+}
+a.logo:hover
+{
+    transform:scale(1);
+}
+.container
+{
+    position: relative;
+    width: 90%;
+    height: 600px;
+    border : 1px solid black;
+    margin: auto;
+    padding:25px;
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.25);
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    z-index: -1;
+}
+.home
+{
+    width:25%;
+    border : 1px solid black;
+    height: auto;
+    padding:10px;
+}
+.cal-calci
+{
+    width: 25%;
+    border : 1px solid black; 
+    height: auto;
+    padding:10px;
+    background-image: url('./Images/calorie.jpg');
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+.products
+{
+    width: 25%;
+    border : 1px solid black; 
+    height: auto;
+    padding:10px;
+}
+.join
+{
+    width: 25%;
+    border : 1px solid black; 
+    height: auto;
+    padding:10px;
+}
+.contact-container
+{
+    width: 25%;
+    border : 1px solid black; 
+    height: auto;
+    padding:10px;
+    background-image: url('./Images/Contact.jpg');
+    background-size: cover;
+    text-align: center;
+    color: black;
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact
+{
+    width: 25%;
+    border : 1px solid black; 
+    height: auto;
+    padding:10px;
+}
